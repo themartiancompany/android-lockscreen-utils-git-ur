@@ -1,0 +1,24 @@
+pkgbase = android-lockscreen-utils-git
+	pkgdesc = Android lockscreen utility commands.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g0720e008f294dcaa52073b93a7092aa53b1ec387
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-lockscreen-utils
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = displayctl
+	depends = sdotool
+	depends = libcrash-bash
+	depends = tsu
+	optdepends = xdotool: same program for X11
+	provides = android-lockscreen-utils=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g0720e008f294dcaa52073b93a7092aa53b1ec387
+	conflicts = android-lockscreen-utils
+	source = android-lockscreen-utils.tar.gz::https://github.com/themartiancompany/android-lockscreen-utils/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = android-lockscreen-utils-git
